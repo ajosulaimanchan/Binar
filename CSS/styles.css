@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(0, 0, 0, .2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    color: rgb(252, 242, 236);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.main-nav li{
+    list-style: none;
+}
+.main-nav a{
+    color: rgb(252, 242, 236);
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.main-reg{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.main-reg li{
+    list-style: none;
+}
+.main-reg a{
+    color: rgb(252, 242, 236);
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.main-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('C:\Users\user\OneDrive\Documents\Binar Project Ch.3\main-bg.jpg');
+}
+body{
+    background-image: url('C:\Users\user\OneDrive\Documents\Binar Project Ch.3\main-bg.jpg');
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.scroll a{
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.scroll image{
+    align-items: center;
+}
+
+.layer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    background-image: url('C:\Users\user\OneDrive\Documents\Binar Project Ch.3\assets\the-games-bg.jpg');
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:\Users\user\OneDrive\Documents\Binar Project Ch.3\assets\features.jpg');
+}
+.col-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#requirements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
